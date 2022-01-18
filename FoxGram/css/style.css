@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #fafafa;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.container {
+	display: flex;
+	justify-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-top: 30px;
+}
+
+.header {
+	top: 0px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #c4c4c4;
+}
+.header_container {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 640px;
+	height: 63px;
+	padding-top: 21px;
+	padding-bottom: 16px;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-between;
+	width: 210px;
+	height: 50px;
+}
+
+/*-------------------STORIES----------------*/
+
+.stories {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	width: 590px;
+	height: 162px;
+	padding: 0 24px;
+	border: 1px solid #c4c4c4;
+	background: #ffffff;
+	margin-bottom: 30px;
+}
+
+.profile_name {
+	text-align: center;
+	font-size: 14px;
+}
+
+.stories_profile {
+	padding-top: 31px;
+}
+
+/*-------------------POST----------------*/
+
+.post {
+	margin: 0 auto;
+	width: 640px;
+	height: 811px;
+	border: 1px solid #c4c4c4;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+.post__header {
+	display: flex;
+	width: 639px;
+	height: 48px;
+	padding-top: 12px;
+}
+
+.logo__post {
+	margin: 0 16px 12px 24px;
+}
+
+.post__name {
+	margin-top: 9px;
+}
+
+.post__img {
+	width: 638px;
+	height: 638px;
+}
+
+.post__footer {
+	width: 639px;
+	height: 88px;
+}
+
+.like {
+	display: flex;
+	margin: 24px auto 16px 24px;
+}
+
+.like__description {
+	margin-left: 16px;
+	margin-top: 5px;
+}
+
+.footer__description {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 110px 0 24px;
+}
+
+.description {
+	font-weight: normal;
+}
